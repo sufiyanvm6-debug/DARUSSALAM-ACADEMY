@@ -1,0 +1,1307 @@
+{
+  "users": [
+    {
+      "id": "usr-admin",
+      "loginId": "admin",
+      "name": "Academy Administrator",
+      "role": "admin",
+      "email": "admin@darussalamnandi.edu.in",
+      "phone": "+91 98470 54321",
+      "passwordHash": "7497750a12d97bb2ef3fb442d9b99eca62a35a9870933d20556a769599575078",
+      "salt": "83ac9b1420a70539a0ccee7c7ab93420",
+      "mustChangePassword": false,
+      "disabled": false,
+      "createdAt": "2026-01-01T00:00:00.000Z",
+      "lastLoginAt": "2026-10-19T03:31:17.852Z"
+    },
+    {
+      "id": "usr-teacher-1",
+      "loginId": "teacher_faizy",
+      "name": "Usthad Ibrahim Faizy",
+      "role": "teacher",
+      "email": "faizy@darussalamnandi.edu.in",
+      "phone": "+91 98471 11223",
+      "passwordHash": "5e683d36fb9faa7ad91ca3834bd76602a715761b2a9efbe6dc101124f116adf4",
+      "salt": "2c3e90293a5e24c2fdcce795e5a3213c",
+      "mustChangePassword": false,
+      "disabled": false,
+      "createdAt": "2026-01-10T00:00:00.000Z",
+      "teacherProfile": {
+        "teacherId": "TCH-01",
+        "designation": "Senior Faculty & Class In-charge",
+        "department": "Islamic Studies & Arabic",
+        "assignedClasses": [
+          "Class 02",
+          "Class 03"
+        ],
+        "assignedSubjects": [
+          "Arabic Language",
+          "Islamic Jurisprudence (Fiqh)",
+          "Moral Studies"
+        ]
+      }
+    },
+    {
+      "id": "usr-teacher-2",
+      "loginId": "teacher_kabeer",
+      "name": "Usthad Kabeer Nandi",
+      "role": "teacher",
+      "email": "kabeer@darussalamnandi.edu.in",
+      "phone": "+91 98471 44556",
+      "passwordHash": "5e683d36fb9faa7ad91ca3834bd76602a715761b2a9efbe6dc101124f116adf4",
+      "salt": "2c3e90293a5e24c2fdcce795e5a3213c",
+      "mustChangePassword": false,
+      "disabled": false,
+      "createdAt": "2026-01-12T00:00:00.000Z",
+      "teacherProfile": {
+        "teacherId": "TCH-02",
+        "designation": "Quran & Tajweed Faculty",
+        "department": "Quranic Sciences",
+        "assignedClasses": [
+          "Class 02",
+          "Class 04"
+        ],
+        "assignedSubjects": [
+          "Quran Recitation & Hifz",
+          "Tajweed"
+        ]
+      }
+    },
+    {
+      "id": "usr-teacher-3",
+      "loginId": "teacher_rahman",
+      "name": "Prof. Abdul Rahman M.Sc",
+      "role": "teacher",
+      "email": "rahman@darussalamnandi.edu.in",
+      "phone": "+91 98471 77889",
+      "passwordHash": "5e683d36fb9faa7ad91ca3834bd76602a715761b2a9efbe6dc101124f116adf4",
+      "salt": "2c3e90293a5e24c2fdcce795e5a3213c",
+      "mustChangePassword": false,
+      "disabled": false,
+      "createdAt": "2026-01-15T00:00:00.000Z",
+      "teacherProfile": {
+        "teacherId": "TCH-03",
+        "designation": "General Science Teacher",
+        "department": "Mathematics & Science",
+        "assignedClasses": [
+          "Class 02",
+          "Class 05"
+        ],
+        "assignedSubjects": [
+          "Mathematics",
+          "Environmental Science",
+          "English"
+        ]
+      }
+    },
+    {
+      "id": "usr-parent-1",
+      "loginId": "parent_jm156",
+      "name": "Chekku Haji (Parent of Abdul Hadi)",
+      "role": "parent",
+      "phone": "+91 98471 23210",
+      "email": "chekku.haji@gmail.com",
+      "passwordHash": "bf7a9405f7ff84aad6b73d133f5557eb4c8daa5631a2bed1deb398472881c3d5",
+      "salt": "03fe1c99b8ac858cd0fe76b822314995",
+      "mustChangePassword": false,
+      "disabled": false,
+      "createdAt": "2026-02-01T00:00:00.000Z",
+      "parentProfile": {
+        "linkedStudentIds": [
+          "JM156"
+        ],
+        "parentRelation": "Father"
+      }
+    },
+    {
+      "id": "usr-parent-2",
+      "loginId": "parent_jm157",
+      "name": "Twaha Musliyar (Parent of Abdullah Amal)",
+      "role": "parent",
+      "phone": "+91 98471 23211",
+      "passwordHash": "bf7a9405f7ff84aad6b73d133f5557eb4c8daa5631a2bed1deb398472881c3d5",
+      "salt": "03fe1c99b8ac858cd0fe76b822314995",
+      "mustChangePassword": false,
+      "disabled": false,
+      "createdAt": "2026-02-01T00:00:00.000Z",
+      "parentProfile": {
+        "linkedStudentIds": [
+          "JM157"
+        ],
+        "parentRelation": "Father"
+      }
+    },
+    {
+      "id": "usr-parent-3",
+      "loginId": "parent_jm163",
+      "name": "Zaman K.P. (Parent of Azhar Zaman)",
+      "role": "parent",
+      "phone": "+91 98471 23212",
+      "passwordHash": "bf7a9405f7ff84aad6b73d133f5557eb4c8daa5631a2bed1deb398472881c3d5",
+      "salt": "03fe1c99b8ac858cd0fe76b822314995",
+      "mustChangePassword": false,
+      "disabled": false,
+      "createdAt": "2026-02-01T00:00:00.000Z",
+      "parentProfile": {
+        "linkedStudentIds": [
+          "JM163"
+        ],
+        "parentRelation": "Father"
+      }
+    }
+  ],
+  "students": [
+    {
+      "admissionId": "JM156",
+      "name": "Abdul Hadi C",
+      "class": "Class 02",
+      "division": "A",
+      "rollNumber": "01",
+      "parentName": "Chekku Haji",
+      "parentPhone": "+91 98471 23210",
+      "parentLoginId": "parent_jm156",
+      "academicYear": "2026–27",
+      "dateOfBirth": "2019-04-14",
+      "address": "Chaliyam Road, Nandi P.O."
+    },
+    {
+      "admissionId": "JM157",
+      "name": "Abdullah Amal Twaha",
+      "class": "Class 02",
+      "division": "A",
+      "rollNumber": "02",
+      "parentName": "Twaha Musliyar",
+      "parentPhone": "+91 98471 23211",
+      "parentLoginId": "parent_jm157",
+      "academicYear": "2026–27",
+      "dateOfBirth": "2019-06-20",
+      "address": "Kappad Coastal Avenue, Calicut"
+    },
+    {
+      "admissionId": "JM163",
+      "name": "Azhar Zaman",
+      "class": "Class 02",
+      "division": "A",
+      "rollNumber": "03",
+      "parentName": "Zaman K.P.",
+      "parentPhone": "+91 98471 23212",
+      "parentLoginId": "parent_jm163",
+      "academicYear": "2026–27",
+      "dateOfBirth": "2019-02-11",
+      "address": "Nandi Railway Gate, Nandi"
+    },
+    {
+      "admissionId": "JM165",
+      "name": "Muhammed",
+      "class": "Class 02",
+      "division": "A",
+      "rollNumber": "04",
+      "parentName": "Musthafa V.P.",
+      "parentPhone": "+91 98471 23213",
+      "parentLoginId": "parent_jm165",
+      "academicYear": "2026–27",
+      "dateOfBirth": "2019-08-05",
+      "address": "Koyilandy Main Road"
+    },
+    {
+      "admissionId": "JM168",
+      "name": "Muhammed Fadil MT",
+      "class": "Class 02",
+      "division": "A",
+      "rollNumber": "05",
+      "parentName": "Tahir M.T.",
+      "parentPhone": "+91 98471 23214",
+      "parentLoginId": "parent_jm168",
+      "academicYear": "2026–27",
+      "dateOfBirth": "2019-05-29",
+      "address": "Thikkodi Beach, Kozhikode"
+    },
+    {
+      "admissionId": "JM169",
+      "name": "Muhammed Falah K",
+      "class": "Class 02",
+      "division": "A",
+      "rollNumber": "06",
+      "parentName": "Kareem K.",
+      "parentPhone": "+91 98471 23215",
+      "parentLoginId": "parent_jm169",
+      "academicYear": "2026–27",
+      "dateOfBirth": "2019-09-17",
+      "address": "Nandi Bazaar South"
+    }
+  ],
+  "attendance": [
+    {
+      "id": "att-1",
+      "date": "2026-10-18",
+      "className": "Class 02",
+      "period": "Period 1",
+      "subject": "Arabic Language",
+      "markedByTeacherId": "usr-teacher-1",
+      "markedByTeacherName": "Usthad Ibrahim Faizy",
+      "isDraft": false,
+      "updatedAt": "2026-10-18T08:45:00.000Z",
+      "records": [
+        {
+          "studentId": "JM156",
+          "studentName": "Abdul Hadi C",
+          "status": "present"
+        },
+        {
+          "studentId": "JM157",
+          "studentName": "Abdullah Amal Twaha",
+          "status": "present"
+        },
+        {
+          "studentId": "JM163",
+          "studentName": "Azhar Zaman",
+          "status": "present"
+        },
+        {
+          "studentId": "JM165",
+          "studentName": "Muhammed",
+          "status": "present"
+        },
+        {
+          "studentId": "JM168",
+          "studentName": "Muhammed Fadil MT",
+          "status": "medical",
+          "remarks": "Fever certificate submitted"
+        },
+        {
+          "studentId": "JM169",
+          "studentName": "Muhammed Falah K",
+          "status": "present"
+        }
+      ]
+    },
+    {
+      "id": "att-2",
+      "date": "2026-10-18",
+      "className": "Class 02",
+      "period": "Period 2",
+      "subject": "Islamic Jurisprudence (Fiqh)",
+      "markedByTeacherId": "usr-teacher-1",
+      "markedByTeacherName": "Usthad Ibrahim Faizy",
+      "isDraft": false,
+      "updatedAt": "2026-10-18T09:30:00.000Z",
+      "records": [
+        {
+          "studentId": "JM156",
+          "studentName": "Abdul Hadi C",
+          "status": "present"
+        },
+        {
+          "studentId": "JM157",
+          "studentName": "Abdullah Amal Twaha",
+          "status": "present"
+        },
+        {
+          "studentId": "JM163",
+          "studentName": "Azhar Zaman",
+          "status": "present"
+        },
+        {
+          "studentId": "JM165",
+          "studentName": "Muhammed",
+          "status": "present"
+        },
+        {
+          "studentId": "JM168",
+          "studentName": "Muhammed Fadil MT",
+          "status": "medical",
+          "remarks": "Medical leave"
+        },
+        {
+          "studentId": "JM169",
+          "studentName": "Muhammed Falah K",
+          "status": "present"
+        }
+      ]
+    },
+    {
+      "id": "att-3",
+      "date": "2026-10-19",
+      "className": "Class 02",
+      "period": "Period 1",
+      "subject": "Quran Recitation & Hifz",
+      "markedByTeacherId": "usr-teacher-2",
+      "markedByTeacherName": "Usthad Kabeer Nandi",
+      "isDraft": false,
+      "updatedAt": "2026-10-19T08:50:00.000Z",
+      "records": [
+        {
+          "studentId": "JM156",
+          "studentName": "Abdul Hadi C",
+          "status": "present"
+        },
+        {
+          "studentId": "JM157",
+          "studentName": "Abdullah Amal Twaha",
+          "status": "present"
+        },
+        {
+          "studentId": "JM163",
+          "studentName": "Azhar Zaman",
+          "status": "present"
+        },
+        {
+          "studentId": "JM165",
+          "studentName": "Muhammed",
+          "status": "absent",
+          "remarks": "Informed travel"
+        },
+        {
+          "studentId": "JM168",
+          "studentName": "Muhammed Fadil MT",
+          "status": "present"
+        },
+        {
+          "studentId": "JM169",
+          "studentName": "Muhammed Falah K",
+          "status": "present"
+        }
+      ]
+    }
+  ],
+  "ceMarks": [
+    {
+      "id": "ce-1",
+      "studentId": "JM156",
+      "studentName": "Abdul Hadi C",
+      "className": "Class 02",
+      "subject": "Arabic Language",
+      "term": "Midterm 2026–27",
+      "assignmentMarks": 14,
+      "performanceMarks": 5,
+      "totalCE": 19,
+      "teacherRemarks": "Excellent pronunciation and regular handwriting homework.",
+      "updatedBy": "Usthad Ibrahim Faizy",
+      "updatedAt": "2026-10-15T10:00:00.000Z"
+    },
+    {
+      "id": "ce-2",
+      "studentId": "JM156",
+      "studentName": "Abdul Hadi C",
+      "className": "Class 02",
+      "subject": "Islamic Jurisprudence (Fiqh)",
+      "term": "Midterm 2026–27",
+      "assignmentMarks": 13,
+      "performanceMarks": 4,
+      "totalCE": 17,
+      "teacherRemarks": "Very attentive during Wudu demonstration classes.",
+      "updatedBy": "Usthad Ibrahim Faizy",
+      "updatedAt": "2026-10-15T10:00:00.000Z"
+    },
+    {
+      "id": "ce-3",
+      "studentId": "JM156",
+      "studentName": "Abdul Hadi C",
+      "className": "Class 02",
+      "subject": "Mathematics",
+      "term": "Midterm 2026–27",
+      "assignmentMarks": 15,
+      "performanceMarks": 5,
+      "totalCE": 20,
+      "teacherRemarks": "Consistently completes all workbook exercises on time.",
+      "updatedBy": "Prof. Abdul Rahman M.Sc",
+      "updatedAt": "2026-10-15T10:00:00.000Z"
+    },
+    {
+      "id": "ce-4",
+      "studentId": "JM156",
+      "studentName": "Abdul Hadi C",
+      "className": "Class 02",
+      "subject": "English & Moral Studies",
+      "term": "Midterm 2026–27",
+      "assignmentMarks": 13,
+      "performanceMarks": 4,
+      "totalCE": 17,
+      "teacherRemarks": "Active participant in classroom dialogues.",
+      "updatedBy": "Prof. Abdul Rahman M.Sc",
+      "updatedAt": "2026-10-15T10:00:00.000Z"
+    },
+    {
+      "id": "ce-5",
+      "studentId": "JM157",
+      "studentName": "Abdullah Amal Twaha",
+      "className": "Class 02",
+      "subject": "Arabic Language",
+      "term": "Midterm 2026–27",
+      "assignmentMarks": 12,
+      "performanceMarks": 4,
+      "totalCE": 16,
+      "teacherRemarks": "Good comprehension; needs a little work on spelling.",
+      "updatedBy": "Usthad Ibrahim Faizy",
+      "updatedAt": "2026-10-15T10:00:00.000Z"
+    }
+  ],
+  "examMarks": [
+    {
+      "id": "ex-1",
+      "studentId": "JM156",
+      "studentName": "Abdul Hadi C",
+      "className": "Class 02",
+      "subject": "Arabic Language",
+      "term": "Midterm 2026–27",
+      "theoryMarks": 73,
+      "ceMarks": 19,
+      "graceMarks": 0,
+      "totalMarks": 92,
+      "isAbsent": false,
+      "grade": "A+",
+      "status": "Passed",
+      "teacherRemarks": "Mastery in vocabulary and comprehension.",
+      "updatedBy": "Usthad Ibrahim Faizy",
+      "updatedAt": "2026-10-16T11:00:00.000Z"
+    },
+    {
+      "id": "ex-2",
+      "studentId": "JM156",
+      "studentName": "Abdul Hadi C",
+      "className": "Class 02",
+      "subject": "Islamic Jurisprudence (Fiqh)",
+      "term": "Midterm 2026–27",
+      "theoryMarks": 68,
+      "ceMarks": 17,
+      "graceMarks": 2,
+      "totalMarks": 87,
+      "isAbsent": false,
+      "grade": "A",
+      "status": "Passed",
+      "teacherRemarks": "Commendable understanding of practical fiqh concepts.",
+      "updatedBy": "Usthad Ibrahim Faizy",
+      "updatedAt": "2026-10-16T11:00:00.000Z"
+    },
+    {
+      "id": "ex-3",
+      "studentId": "JM156",
+      "studentName": "Abdul Hadi C",
+      "className": "Class 02",
+      "subject": "Mathematics",
+      "term": "Midterm 2026–27",
+      "theoryMarks": 76,
+      "ceMarks": 20,
+      "graceMarks": 0,
+      "totalMarks": 96,
+      "isAbsent": false,
+      "grade": "A+",
+      "status": "Passed",
+      "teacherRemarks": "Outstanding analytical clarity.",
+      "updatedBy": "Prof. Abdul Rahman M.Sc",
+      "updatedAt": "2026-10-16T11:00:00.000Z"
+    },
+    {
+      "id": "ex-4",
+      "studentId": "JM156",
+      "studentName": "Abdul Hadi C",
+      "className": "Class 02",
+      "subject": "English & Moral Studies",
+      "term": "Midterm 2026–27",
+      "theoryMarks": 67,
+      "ceMarks": 17,
+      "graceMarks": 0,
+      "totalMarks": 84,
+      "isAbsent": false,
+      "grade": "A",
+      "status": "Passed",
+      "teacherRemarks": "Very good presentation and neat handwriting.",
+      "updatedBy": "Prof. Abdul Rahman M.Sc",
+      "updatedAt": "2026-10-16T11:00:00.000Z"
+    }
+  ],
+  "graceRequests": [
+    {
+      "id": "grc-1",
+      "studentId": "JM156",
+      "studentName": "Abdul Hadi C",
+      "className": "Class 02",
+      "subject": "Islamic Jurisprudence (Fiqh)",
+      "term": "Midterm 2026–27",
+      "currentTheoryMarks": 68,
+      "requestedGrace": 2,
+      "justification": "Outstanding performance in oral vivas and daily prayers register; missed question 4b due to minor headache during exam.",
+      "status": "approved",
+      "requestedByTeacherId": "usr-teacher-1",
+      "requestedByTeacherName": "Usthad Ibrahim Faizy",
+      "approvedGrace": 2,
+      "adminRemarks": "Approved based on teacher recommendation and continuous viva log.",
+      "requestedAt": "2026-10-16T12:00:00.000Z",
+      "decidedAt": "2026-10-17T09:00:00.000Z",
+      "decidedBy": "Academy Administrator"
+    },
+    {
+      "id": "grc-2",
+      "studentId": "JM157",
+      "studentName": "Abdullah Amal Twaha",
+      "className": "Class 02",
+      "subject": "Arabic Language",
+      "term": "Midterm 2026–27",
+      "currentTheoryMarks": 63,
+      "requestedGrace": 3,
+      "justification": "Deserving student who made major leaps in Tajweed and Arabic calligraphy.",
+      "status": "pending",
+      "requestedByTeacherId": "usr-teacher-1",
+      "requestedByTeacherName": "Usthad Ibrahim Faizy",
+      "requestedAt": "2026-10-18T10:30:00.000Z"
+    }
+  ],
+  "leaveRequests": [
+    {
+      "id": "lv-1",
+      "teacherId": "usr-teacher-1",
+      "teacherName": "Usthad Ibrahim Faizy",
+      "startDate": "2026-10-25",
+      "endDate": "2026-10-26",
+      "totalDays": 2,
+      "reason": "Attending Samastha Ulama Conference in Malappuram",
+      "suggestedSubstitute": "Usthad Kabeer Nandi",
+      "assignedSubstitute": "Usthad Kabeer Nandi",
+      "status": "approved",
+      "adminRemarks": "Leave sanctioned. Substitution confirmed.",
+      "requestedAt": "2026-10-14T10:00:00.000Z",
+      "decidedAt": "2026-10-15T08:30:00.000Z"
+    }
+  ],
+  "auditLogs": [
+    {
+      "id": "aud-1792380677852-lc3o",
+      "timestamp": "2026-10-19T03:31:17.852Z",
+      "actorId": "usr-admin",
+      "actorName": "Academy Administrator",
+      "actorRole": "admin",
+      "category": "account",
+      "action": "USER_LOGIN",
+      "details": "Successful login to admin portal by Academy Administrator (admin)"
+    },
+    {
+      "id": "aud-1",
+      "timestamp": "2026-10-14T08:00:00.000Z",
+      "actorId": "usr-admin",
+      "actorName": "Academy Administrator",
+      "actorRole": "admin",
+      "category": "account",
+      "action": "SYSTEM_BOOTSTRAP",
+      "details": "Darussalam Academy database initialized with primary credentials and Class 02 registers."
+    },
+    {
+      "id": "aud-2",
+      "timestamp": "2026-10-17T09:00:00.000Z",
+      "actorId": "usr-admin",
+      "actorName": "Academy Administrator",
+      "actorRole": "admin",
+      "category": "grace",
+      "action": "APPROVE_GRACE_MARKS",
+      "details": "Approved +2 grace marks for Abdul Hadi C (JM156) in Fiqh."
+    }
+  ],
+  "academicSettings": {
+    "medicalAttendanceRule": "excluded",
+    "examPublishedTerms": {
+      "Midterm 2026–27": true,
+      "Annual Examination 2026-27": false
+    },
+    "minPassPercentage": 40,
+    "maxGraceMarksPerStudent": 5
+  },
+  "cmsDraft": {
+    "identity": {
+      "academyName": "Darussalam Academy",
+      "subtitle": "Nandi, Kozhikode, Kerala",
+      "establishedYear": "1998",
+      "accreditation": "Recognized Educational & Islamic Studies Institute",
+      "motto": "Knowledge, Character, & Spiritual Excellence",
+      "logoUrl": ""
+    },
+    "campusCover": {
+      "heroTitle": "Nurturing Islamic Scholarship & Modern Academic Brilliance",
+      "heroSubtitle": "A serene coastal campus in Nandi, Kerala dedicated to producing ethical leaders, scholars, and professionals.",
+      "heroDescription": "Darussalam Academy harmoniously unites classical Islamic disciplines, Hifz-ul-Quran, and modern school education in a disciplined, uplifting environment.",
+      "badgeText": "Admissions Open for Academic Year 2026–27",
+      "coverImageUrl": "https://images.unsplash.com/photo-1541339907198-e08756dedf3f?auto=format&fit=crop&w=1600&q=80",
+      "campusLocation": "Nandi Beach Road, Kozhikode District, Kerala"
+    },
+    "aboutUs": {
+      "history": "Founded in 1998 under the visionary leadership of distinguished Kerala Islamic scholars, Darussalam Academy has stood as a beacon of moral and educational reformation on the serene Malabar coast.",
+      "mission": "To cultivate righteous individuals grounded in sound Islamic theology, intellectual curiosity, high academic competence, and civic responsibility.",
+      "vision": "To be a premier center of integrated learning where tradition and modernity inspire visionary community leadership.",
+      "heritageParagraph": "Situated in Nandi, Kozhikode, surrounded by breezy palm canopies and the Arabian sea breeze, our campus offers a distraction-free, spiritually elevating atmosphere where students memorize the Holy Quran, master Arabic and jurisprudence, and excel in modern sciences.",
+      "stats": [
+        {
+          "label": "Students Enrolled",
+          "value": "850+",
+          "icon": "Users"
+        },
+        {
+          "label": "Faculty Scholars",
+          "value": "48",
+          "icon": "GraduationCap"
+        },
+        {
+          "label": "Board Pass Rate",
+          "value": "100%",
+          "icon": "Award"
+        },
+        {
+          "label": "Years of Heritage",
+          "value": "28+",
+          "icon": "Clock"
+        }
+      ],
+      "facilities": [
+        "Grand Central Juma Masjid & Prayer Halls",
+        "Specialized Hifz-ul-Quran Sanctuary",
+        "Digital Smart Classrooms & High-Speed Labs",
+        "Extensive Islamic & Modern Research Library",
+        "Well-equipped Physics, Chemistry & Biology Labs",
+        "Clean Boarding Hostels & Hygienic Malabar Mess"
+      ]
+    },
+    "contactUs": {
+      "addressLine1": "Darussalam Academy Campus, Nandi P.O.",
+      "addressLine2": "Near Nandi Railway Station, Koyilandy Taluk",
+      "city": "Kozhikode",
+      "district": "Kozhikode District",
+      "state": "Kerala",
+      "pinCode": "673305",
+      "phonePrimary": "+91 496 269 1100",
+      "phoneSecondary": "+91 98470 54321",
+      "emailOfficial": "info@darussalamnandi.edu.in",
+      "emailAdmissions": "admissions@darussalamnandi.edu.in",
+      "workingHours": "Saturday – Thursday: 8:00 AM – 4:30 PM (Friday Closed)",
+      "mapQuery": "Nandi, Kozhikode, Kerala"
+    },
+    "programs": [
+      {
+        "id": "prog-1",
+        "title": "Da'wa & Shari'ah Integrated Degree",
+        "tagline": "Comprehensive 6-Year Course",
+        "duration": "6 Years (Post-10th)",
+        "eligibility": "SSLC / 10th Standard with Arabic aptitude",
+        "description": "An intensive curriculum weaving classical Usul al-Fiqh, Hadith studies, Arabic rhetoric, and modern bachelor degree programs.",
+        "highlights": [
+          "Classical Islamic Jurisprudence",
+          "Comparative Religion",
+          "B.A./B.Com Integration",
+          "Public Speaking & Dawah"
+        ],
+        "imageUrl": "https://images.unsplash.com/photo-1577495508048-b635879837f1?auto=format&fit=crop&w=800&q=80"
+      },
+      {
+        "id": "prog-2",
+        "title": "Hifz-ul-Quran with Regular Schooling",
+        "tagline": "Sacred Memorization & Formal Academics",
+        "duration": "3–4 Years",
+        "eligibility": "Completed 4th or 5th Standard",
+        "description": "Carefully calibrated Tajweed and daily Quranic memorization alongside state curriculum mathematics, science, English, and Malayalam.",
+        "highlights": [
+          "Individualized Sanad Guidance",
+          "Tajweed & Voice Modulation",
+          "Continuous Evaluation",
+          "Standard School Syllabus"
+        ],
+        "imageUrl": "https://images.unsplash.com/photo-1585829365295-ab7cd400c167?auto=format&fit=crop&w=800&q=80"
+      },
+      {
+        "id": "prog-3",
+        "title": "Senior Secondary (Kerala State / NIOS)",
+        "tagline": "Science, Commerce & Humanities",
+        "duration": "2 Years (+1 & +2)",
+        "eligibility": "10th Standard Pass",
+        "description": "Rigorous academic coaching for board examinations coupled with moral ethics, personality development, and competitive entrance coaching.",
+        "highlights": [
+          "Modern Science Laboratories",
+          "NEET / KEAM / CUET Guidance",
+          "Islamic Moral Studies",
+          "Communication Skills"
+        ],
+        "imageUrl": "https://images.unsplash.com/photo-1523240795612-9a054b0db644?auto=format&fit=crop&w=800&q=80"
+      },
+      {
+        "id": "prog-4",
+        "title": "Primary & Upper Primary Wing",
+        "tagline": "Class 01 to Class 07",
+        "duration": "Foundational Years",
+        "eligibility": "Age 6+ for Class 01",
+        "description": "Holistic child development fostering Islamic manners (Adab), fluent reading of Arabic & English, mental math, and experiential curiosity.",
+        "highlights": [
+          "Activity-based Learning",
+          "Moral Education & Supplications",
+          "Clean Campus Care",
+          "Personal Attention"
+        ],
+        "imageUrl": "https://images.unsplash.com/photo-1509062522246-3755977927d7?auto=format&fit=crop&w=800&q=80"
+      }
+    ],
+    "achievements": [
+      {
+        "id": "ach-1",
+        "year": "2026",
+        "title": "100% Distinction in Islamic Board Examinations",
+        "category": "Academic Excellence",
+        "description": "All candidates secured first-class honors with state-level ranks in Arabic and Islamic Jurisprudence.",
+        "imageUrl": "https://images.unsplash.com/photo-1523580494863-6f3031224c94?auto=format&fit=crop&w=800&q=80"
+      },
+      {
+        "id": "ach-2",
+        "year": "2025",
+        "title": "Kerala State All-Schools Arabic Fest Winners",
+        "category": "Cultural & Literary",
+        "description": "First prize in Arabic Eloquence, Quran Recitation (Qira'at), and Islamic Calligraphy exhibitions.",
+        "imageUrl": "https://images.unsplash.com/photo-1455849318743-b2233052fcff?auto=format&fit=crop&w=800&q=80"
+      },
+      {
+        "id": "ach-3",
+        "year": "2025",
+        "title": "State Green Campus & Eco-Architecture Award",
+        "category": "Institution Award",
+        "description": "Recognized by Kozhikode District Environmental Forum for sustainable rainwater harvesting and solar adoption.",
+        "imageUrl": "https://images.unsplash.com/photo-1518780664697-55e3ad937233?auto=format&fit=crop&w=800&q=80"
+      }
+    ],
+    "faculty": [
+      {
+        "id": "fac-1",
+        "name": "Usthad Ibrahim Faizy",
+        "designation": "Dean of Islamic Studies & Senior Teacher",
+        "department": "Islamic Jurisprudence & Hadith",
+        "qualification": "M.A. Islamic Studies, Faizy Sanad",
+        "experience": "19 Years",
+        "photoUrl": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?auto=format&fit=crop&w=400&q=80"
+      },
+      {
+        "id": "fac-2",
+        "name": "Usthad Kabeer Nandi",
+        "designation": "Head of Dept — Quran & Hifz Wing",
+        "department": "Quranic Sciences & Tajweed",
+        "qualification": "Hafiz-ul-Quran, Qari (Egypt Certified)",
+        "experience": "14 Years",
+        "photoUrl": "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?auto=format&fit=crop&w=400&q=80"
+      },
+      {
+        "id": "fac-3",
+        "name": "Prof. Abdul Rahman M.Sc",
+        "designation": "Head of General Sciences",
+        "department": "Mathematics & Sciences",
+        "qualification": "M.Sc Mathematics, B.Ed",
+        "experience": "16 Years",
+        "photoUrl": "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?auto=format&fit=crop&w=400&q=80"
+      },
+      {
+        "id": "fac-4",
+        "name": "Usthad Dr. Ashraf Ali",
+        "designation": "Vice Principal & Academic Coordinator",
+        "department": "Arabic Literature & Languages",
+        "qualification": "Ph.D. in Arabic Literature, Calicut University",
+        "experience": "21 Years",
+        "photoUrl": "https://images.unsplash.com/photo-1534528741775-53994a69daeb?auto=format&fit=crop&w=400&q=80"
+      }
+    ],
+    "appearance": {
+      "primaryColor": "#064e3b",
+      "accentColor": "#b45309",
+      "fontStyle": "scholarly",
+      "showPrograms": true,
+      "showAchievements": true,
+      "showFaculty": true,
+      "showAbout": true,
+      "showContact": true,
+      "showAnnouncements": true
+    },
+    "notices": [
+      {
+        "id": "not-1",
+        "title": "Registration for Academic Year 2026–27 Entrance Test",
+        "date": "October 15, 2026",
+        "category": "Admission",
+        "content": "Entrance evaluations for Da'wa and Hifz courses commence next month. Prospectus available at office.",
+        "isImportant": true
+      },
+      {
+        "id": "not-2",
+        "title": "Mid-Term Academic Progress Reports Published",
+        "date": "October 12, 2026",
+        "category": "Academic",
+        "content": "Parents can log in to the Parent Portal to review their child's approved evaluation cards and attendance status.",
+        "isImportant": false
+      },
+      {
+        "id": "not-3",
+        "title": "Annual Quran & Seerah Competitions 2026",
+        "date": "November 04, 2026",
+        "category": "General",
+        "content": "Inter-class competitions will take place at Darussalam Main Auditorium. Program schedule posted on notice boards.",
+        "isImportant": false
+      }
+    ]
+  },
+  "cmsPublished": {
+    "identity": {
+      "academyName": "Darussalam Academy",
+      "subtitle": "Nandi, Kozhikode, Kerala",
+      "establishedYear": "1998",
+      "accreditation": "Recognized Educational & Islamic Studies Institute",
+      "motto": "Knowledge, Character, & Spiritual Excellence",
+      "logoUrl": ""
+    },
+    "campusCover": {
+      "heroTitle": "Nurturing Islamic Scholarship & Modern Academic Brilliance",
+      "heroSubtitle": "A serene coastal campus in Nandi, Kerala dedicated to producing ethical leaders, scholars, and professionals.",
+      "heroDescription": "Darussalam Academy harmoniously unites classical Islamic disciplines, Hifz-ul-Quran, and modern school education in a disciplined, uplifting environment.",
+      "badgeText": "Admissions Open for Academic Year 2026–27",
+      "coverImageUrl": "https://images.unsplash.com/photo-1541339907198-e08756dedf3f?auto=format&fit=crop&w=1600&q=80",
+      "campusLocation": "Nandi Beach Road, Kozhikode District, Kerala"
+    },
+    "aboutUs": {
+      "history": "Founded in 1998 under the visionary leadership of distinguished Kerala Islamic scholars, Darussalam Academy has stood as a beacon of moral and educational reformation on the serene Malabar coast.",
+      "mission": "To cultivate righteous individuals grounded in sound Islamic theology, intellectual curiosity, high academic competence, and civic responsibility.",
+      "vision": "To be a premier center of integrated learning where tradition and modernity inspire visionary community leadership.",
+      "heritageParagraph": "Situated in Nandi, Kozhikode, surrounded by breezy palm canopies and the Arabian sea breeze, our campus offers a distraction-free, spiritually elevating atmosphere where students memorize the Holy Quran, master Arabic and jurisprudence, and excel in modern sciences.",
+      "stats": [
+        {
+          "label": "Students Enrolled",
+          "value": "850+",
+          "icon": "Users"
+        },
+        {
+          "label": "Faculty Scholars",
+          "value": "48",
+          "icon": "GraduationCap"
+        },
+        {
+          "label": "Board Pass Rate",
+          "value": "100%",
+          "icon": "Award"
+        },
+        {
+          "label": "Years of Heritage",
+          "value": "28+",
+          "icon": "Clock"
+        }
+      ],
+      "facilities": [
+        "Grand Central Juma Masjid & Prayer Halls",
+        "Specialized Hifz-ul-Quran Sanctuary",
+        "Digital Smart Classrooms & High-Speed Labs",
+        "Extensive Islamic & Modern Research Library",
+        "Well-equipped Physics, Chemistry & Biology Labs",
+        "Clean Boarding Hostels & Hygienic Malabar Mess"
+      ]
+    },
+    "contactUs": {
+      "addressLine1": "Darussalam Academy Campus, Nandi P.O.",
+      "addressLine2": "Near Nandi Railway Station, Koyilandy Taluk",
+      "city": "Kozhikode",
+      "district": "Kozhikode District",
+      "state": "Kerala",
+      "pinCode": "673305",
+      "phonePrimary": "+91 496 269 1100",
+      "phoneSecondary": "+91 98470 54321",
+      "emailOfficial": "info@darussalamnandi.edu.in",
+      "emailAdmissions": "admissions@darussalamnandi.edu.in",
+      "workingHours": "Saturday – Thursday: 8:00 AM – 4:30 PM (Friday Closed)",
+      "mapQuery": "Nandi, Kozhikode, Kerala"
+    },
+    "programs": [
+      {
+        "id": "prog-1",
+        "title": "Da'wa & Shari'ah Integrated Degree",
+        "tagline": "Comprehensive 6-Year Course",
+        "duration": "6 Years (Post-10th)",
+        "eligibility": "SSLC / 10th Standard with Arabic aptitude",
+        "description": "An intensive curriculum weaving classical Usul al-Fiqh, Hadith studies, Arabic rhetoric, and modern bachelor degree programs.",
+        "highlights": [
+          "Classical Islamic Jurisprudence",
+          "Comparative Religion",
+          "B.A./B.Com Integration",
+          "Public Speaking & Dawah"
+        ],
+        "imageUrl": "https://images.unsplash.com/photo-1577495508048-b635879837f1?auto=format&fit=crop&w=800&q=80"
+      },
+      {
+        "id": "prog-2",
+        "title": "Hifz-ul-Quran with Regular Schooling",
+        "tagline": "Sacred Memorization & Formal Academics",
+        "duration": "3–4 Years",
+        "eligibility": "Completed 4th or 5th Standard",
+        "description": "Carefully calibrated Tajweed and daily Quranic memorization alongside state curriculum mathematics, science, English, and Malayalam.",
+        "highlights": [
+          "Individualized Sanad Guidance",
+          "Tajweed & Voice Modulation",
+          "Continuous Evaluation",
+          "Standard School Syllabus"
+        ],
+        "imageUrl": "https://images.unsplash.com/photo-1585829365295-ab7cd400c167?auto=format&fit=crop&w=800&q=80"
+      },
+      {
+        "id": "prog-3",
+        "title": "Senior Secondary (Kerala State / NIOS)",
+        "tagline": "Science, Commerce & Humanities",
+        "duration": "2 Years (+1 & +2)",
+        "eligibility": "10th Standard Pass",
+        "description": "Rigorous academic coaching for board examinations coupled with moral ethics, personality development, and competitive entrance coaching.",
+        "highlights": [
+          "Modern Science Laboratories",
+          "NEET / KEAM / CUET Guidance",
+          "Islamic Moral Studies",
+          "Communication Skills"
+        ],
+        "imageUrl": "https://images.unsplash.com/photo-1523240795612-9a054b0db644?auto=format&fit=crop&w=800&q=80"
+      },
+      {
+        "id": "prog-4",
+        "title": "Primary & Upper Primary Wing",
+        "tagline": "Class 01 to Class 07",
+        "duration": "Foundational Years",
+        "eligibility": "Age 6+ for Class 01",
+        "description": "Holistic child development fostering Islamic manners (Adab), fluent reading of Arabic & English, mental math, and experiential curiosity.",
+        "highlights": [
+          "Activity-based Learning",
+          "Moral Education & Supplications",
+          "Clean Campus Care",
+          "Personal Attention"
+        ],
+        "imageUrl": "https://images.unsplash.com/photo-1509062522246-3755977927d7?auto=format&fit=crop&w=800&q=80"
+      }
+    ],
+    "achievements": [
+      {
+        "id": "ach-1",
+        "year": "2026",
+        "title": "100% Distinction in Islamic Board Examinations",
+        "category": "Academic Excellence",
+        "description": "All candidates secured first-class honors with state-level ranks in Arabic and Islamic Jurisprudence.",
+        "imageUrl": "https://images.unsplash.com/photo-1523580494863-6f3031224c94?auto=format&fit=crop&w=800&q=80"
+      },
+      {
+        "id": "ach-2",
+        "year": "2025",
+        "title": "Kerala State All-Schools Arabic Fest Winners",
+        "category": "Cultural & Literary",
+        "description": "First prize in Arabic Eloquence, Quran Recitation (Qira'at), and Islamic Calligraphy exhibitions.",
+        "imageUrl": "https://images.unsplash.com/photo-1455849318743-b2233052fcff?auto=format&fit=crop&w=800&q=80"
+      },
+      {
+        "id": "ach-3",
+        "year": "2025",
+        "title": "State Green Campus & Eco-Architecture Award",
+        "category": "Institution Award",
+        "description": "Recognized by Kozhikode District Environmental Forum for sustainable rainwater harvesting and solar adoption.",
+        "imageUrl": "https://images.unsplash.com/photo-1518780664697-55e3ad937233?auto=format&fit=crop&w=800&q=80"
+      }
+    ],
+    "faculty": [
+      {
+        "id": "fac-1",
+        "name": "Usthad Ibrahim Faizy",
+        "designation": "Dean of Islamic Studies & Senior Teacher",
+        "department": "Islamic Jurisprudence & Hadith",
+        "qualification": "M.A. Islamic Studies, Faizy Sanad",
+        "experience": "19 Years",
+        "photoUrl": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?auto=format&fit=crop&w=400&q=80"
+      },
+      {
+        "id": "fac-2",
+        "name": "Usthad Kabeer Nandi",
+        "designation": "Head of Dept — Quran & Hifz Wing",
+        "department": "Quranic Sciences & Tajweed",
+        "qualification": "Hafiz-ul-Quran, Qari (Egypt Certified)",
+        "experience": "14 Years",
+        "photoUrl": "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?auto=format&fit=crop&w=400&q=80"
+      },
+      {
+        "id": "fac-3",
+        "name": "Prof. Abdul Rahman M.Sc",
+        "designation": "Head of General Sciences",
+        "department": "Mathematics & Sciences",
+        "qualification": "M.Sc Mathematics, B.Ed",
+        "experience": "16 Years",
+        "photoUrl": "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?auto=format&fit=crop&w=400&q=80"
+      },
+      {
+        "id": "fac-4",
+        "name": "Usthad Dr. Ashraf Ali",
+        "designation": "Vice Principal & Academic Coordinator",
+        "department": "Arabic Literature & Languages",
+        "qualification": "Ph.D. in Arabic Literature, Calicut University",
+        "experience": "21 Years",
+        "photoUrl": "https://images.unsplash.com/photo-1534528741775-53994a69daeb?auto=format&fit=crop&w=400&q=80"
+      }
+    ],
+    "appearance": {
+      "primaryColor": "#064e3b",
+      "accentColor": "#b45309",
+      "fontStyle": "scholarly",
+      "showPrograms": true,
+      "showAchievements": true,
+      "showFaculty": true,
+      "showAbout": true,
+      "showContact": true,
+      "showAnnouncements": true
+    },
+    "notices": [
+      {
+        "id": "not-1",
+        "title": "Registration for Academic Year 2026–27 Entrance Test",
+        "date": "October 15, 2026",
+        "category": "Admission",
+        "content": "Entrance evaluations for Da'wa and Hifz courses commence next month. Prospectus available at office.",
+        "isImportant": true
+      },
+      {
+        "id": "not-2",
+        "title": "Mid-Term Academic Progress Reports Published",
+        "date": "October 12, 2026",
+        "category": "Academic",
+        "content": "Parents can log in to the Parent Portal to review their child's approved evaluation cards and attendance status.",
+        "isImportant": false
+      },
+      {
+        "id": "not-3",
+        "title": "Annual Quran & Seerah Competitions 2026",
+        "date": "November 04, 2026",
+        "category": "General",
+        "content": "Inter-class competitions will take place at Darussalam Main Auditorium. Program schedule posted on notice boards.",
+        "isImportant": false
+      }
+    ]
+  },
+  "cmsRevisions": [
+    {
+      "id": "rev-init",
+      "timestamp": "2026-10-10T00:00:00.000Z",
+      "publishedBy": "Academy Administrator",
+      "content": {
+        "identity": {
+          "academyName": "Darussalam Academy",
+          "subtitle": "Nandi, Kozhikode, Kerala",
+          "establishedYear": "1998",
+          "accreditation": "Recognized Educational & Islamic Studies Institute",
+          "motto": "Knowledge, Character, & Spiritual Excellence",
+          "logoUrl": ""
+        },
+        "campusCover": {
+          "heroTitle": "Nurturing Islamic Scholarship & Modern Academic Brilliance",
+          "heroSubtitle": "A serene coastal campus in Nandi, Kerala dedicated to producing ethical leaders, scholars, and professionals.",
+          "heroDescription": "Darussalam Academy harmoniously unites classical Islamic disciplines, Hifz-ul-Quran, and modern school education in a disciplined, uplifting environment.",
+          "badgeText": "Admissions Open for Academic Year 2026–27",
+          "coverImageUrl": "https://images.unsplash.com/photo-1541339907198-e08756dedf3f?auto=format&fit=crop&w=1600&q=80",
+          "campusLocation": "Nandi Beach Road, Kozhikode District, Kerala"
+        },
+        "aboutUs": {
+          "history": "Founded in 1998 under the visionary leadership of distinguished Kerala Islamic scholars, Darussalam Academy has stood as a beacon of moral and educational reformation on the serene Malabar coast.",
+          "mission": "To cultivate righteous individuals grounded in sound Islamic theology, intellectual curiosity, high academic competence, and civic responsibility.",
+          "vision": "To be a premier center of integrated learning where tradition and modernity inspire visionary community leadership.",
+          "heritageParagraph": "Situated in Nandi, Kozhikode, surrounded by breezy palm canopies and the Arabian sea breeze, our campus offers a distraction-free, spiritually elevating atmosphere where students memorize the Holy Quran, master Arabic and jurisprudence, and excel in modern sciences.",
+          "stats": [
+            {
+              "label": "Students Enrolled",
+              "value": "850+",
+              "icon": "Users"
+            },
+            {
+              "label": "Faculty Scholars",
+              "value": "48",
+              "icon": "GraduationCap"
+            },
+            {
+              "label": "Board Pass Rate",
+              "value": "100%",
+              "icon": "Award"
+            },
+            {
+              "label": "Years of Heritage",
+              "value": "28+",
+              "icon": "Clock"
+            }
+          ],
+          "facilities": [
+            "Grand Central Juma Masjid & Prayer Halls",
+            "Specialized Hifz-ul-Quran Sanctuary",
+            "Digital Smart Classrooms & High-Speed Labs",
+            "Extensive Islamic & Modern Research Library",
+            "Well-equipped Physics, Chemistry & Biology Labs",
+            "Clean Boarding Hostels & Hygienic Malabar Mess"
+          ]
+        },
+        "contactUs": {
+          "addressLine1": "Darussalam Academy Campus, Nandi P.O.",
+          "addressLine2": "Near Nandi Railway Station, Koyilandy Taluk",
+          "city": "Kozhikode",
+          "district": "Kozhikode District",
+          "state": "Kerala",
+          "pinCode": "673305",
+          "phonePrimary": "+91 496 269 1100",
+          "phoneSecondary": "+91 98470 54321",
+          "emailOfficial": "info@darussalamnandi.edu.in",
+          "emailAdmissions": "admissions@darussalamnandi.edu.in",
+          "workingHours": "Saturday – Thursday: 8:00 AM – 4:30 PM (Friday Closed)",
+          "mapQuery": "Nandi, Kozhikode, Kerala"
+        },
+        "programs": [
+          {
+            "id": "prog-1",
+            "title": "Da'wa & Shari'ah Integrated Degree",
+            "tagline": "Comprehensive 6-Year Course",
+            "duration": "6 Years (Post-10th)",
+            "eligibility": "SSLC / 10th Standard with Arabic aptitude",
+            "description": "An intensive curriculum weaving classical Usul al-Fiqh, Hadith studies, Arabic rhetoric, and modern bachelor degree programs.",
+            "highlights": [
+              "Classical Islamic Jurisprudence",
+              "Comparative Religion",
+              "B.A./B.Com Integration",
+              "Public Speaking & Dawah"
+            ],
+            "imageUrl": "https://images.unsplash.com/photo-1577495508048-b635879837f1?auto=format&fit=crop&w=800&q=80"
+          },
+          {
+            "id": "prog-2",
+            "title": "Hifz-ul-Quran with Regular Schooling",
+            "tagline": "Sacred Memorization & Formal Academics",
+            "duration": "3–4 Years",
+            "eligibility": "Completed 4th or 5th Standard",
+            "description": "Carefully calibrated Tajweed and daily Quranic memorization alongside state curriculum mathematics, science, English, and Malayalam.",
+            "highlights": [
+              "Individualized Sanad Guidance",
+              "Tajweed & Voice Modulation",
+              "Continuous Evaluation",
+              "Standard School Syllabus"
+            ],
+            "imageUrl": "https://images.unsplash.com/photo-1585829365295-ab7cd400c167?auto=format&fit=crop&w=800&q=80"
+          },
+          {
+            "id": "prog-3",
+            "title": "Senior Secondary (Kerala State / NIOS)",
+            "tagline": "Science, Commerce & Humanities",
+            "duration": "2 Years (+1 & +2)",
+            "eligibility": "10th Standard Pass",
+            "description": "Rigorous academic coaching for board examinations coupled with moral ethics, personality development, and competitive entrance coaching.",
+            "highlights": [
+              "Modern Science Laboratories",
+              "NEET / KEAM / CUET Guidance",
+              "Islamic Moral Studies",
+              "Communication Skills"
+            ],
+            "imageUrl": "https://images.unsplash.com/photo-1523240795612-9a054b0db644?auto=format&fit=crop&w=800&q=80"
+          },
+          {
+            "id": "prog-4",
+            "title": "Primary & Upper Primary Wing",
+            "tagline": "Class 01 to Class 07",
+            "duration": "Foundational Years",
+            "eligibility": "Age 6+ for Class 01",
+            "description": "Holistic child development fostering Islamic manners (Adab), fluent reading of Arabic & English, mental math, and experiential curiosity.",
+            "highlights": [
+              "Activity-based Learning",
+              "Moral Education & Supplications",
+              "Clean Campus Care",
+              "Personal Attention"
+            ],
+            "imageUrl": "https://images.unsplash.com/photo-1509062522246-3755977927d7?auto=format&fit=crop&w=800&q=80"
+          }
+        ],
+        "achievements": [
+          {
+            "id": "ach-1",
+            "year": "2026",
+            "title": "100% Distinction in Islamic Board Examinations",
+            "category": "Academic Excellence",
+            "description": "All candidates secured first-class honors with state-level ranks in Arabic and Islamic Jurisprudence.",
+            "imageUrl": "https://images.unsplash.com/photo-1523580494863-6f3031224c94?auto=format&fit=crop&w=800&q=80"
+          },
+          {
+            "id": "ach-2",
+            "year": "2025",
+            "title": "Kerala State All-Schools Arabic Fest Winners",
+            "category": "Cultural & Literary",
+            "description": "First prize in Arabic Eloquence, Quran Recitation (Qira'at), and Islamic Calligraphy exhibitions.",
+            "imageUrl": "https://images.unsplash.com/photo-1455849318743-b2233052fcff?auto=format&fit=crop&w=800&q=80"
+          },
+          {
+            "id": "ach-3",
+            "year": "2025",
+            "title": "State Green Campus & Eco-Architecture Award",
+            "category": "Institution Award",
+            "description": "Recognized by Kozhikode District Environmental Forum for sustainable rainwater harvesting and solar adoption.",
+            "imageUrl": "https://images.unsplash.com/photo-1518780664697-55e3ad937233?auto=format&fit=crop&w=800&q=80"
+          }
+        ],
+        "faculty": [
+          {
+            "id": "fac-1",
+            "name": "Usthad Ibrahim Faizy",
+            "designation": "Dean of Islamic Studies & Senior Teacher",
+            "department": "Islamic Jurisprudence & Hadith",
+            "qualification": "M.A. Islamic Studies, Faizy Sanad",
+            "experience": "19 Years",
+            "photoUrl": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?auto=format&fit=crop&w=400&q=80"
+          },
+          {
+            "id": "fac-2",
+            "name": "Usthad Kabeer Nandi",
+            "designation": "Head of Dept — Quran & Hifz Wing",
+            "department": "Quranic Sciences & Tajweed",
+            "qualification": "Hafiz-ul-Quran, Qari (Egypt Certified)",
+            "experience": "14 Years",
+            "photoUrl": "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?auto=format&fit=crop&w=400&q=80"
+          },
+          {
+            "id": "fac-3",
+            "name": "Prof. Abdul Rahman M.Sc",
+            "designation": "Head of General Sciences",
+            "department": "Mathematics & Sciences",
+            "qualification": "M.Sc Mathematics, B.Ed",
+            "experience": "16 Years",
+            "photoUrl": "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?auto=format&fit=crop&w=400&q=80"
+          },
+          {
+            "id": "fac-4",
+            "name": "Usthad Dr. Ashraf Ali",
+            "designation": "Vice Principal & Academic Coordinator",
+            "department": "Arabic Literature & Languages",
+            "qualification": "Ph.D. in Arabic Literature, Calicut University",
+            "experience": "21 Years",
+            "photoUrl": "https://images.unsplash.com/photo-1534528741775-53994a69daeb?auto=format&fit=crop&w=400&q=80"
+          }
+        ],
+        "appearance": {
+          "primaryColor": "#064e3b",
+          "accentColor": "#b45309",
+          "fontStyle": "scholarly",
+          "showPrograms": true,
+          "showAchievements": true,
+          "showFaculty": true,
+          "showAbout": true,
+          "showContact": true,
+          "showAnnouncements": true
+        },
+        "notices": [
+          {
+            "id": "not-1",
+            "title": "Registration for Academic Year 2026–27 Entrance Test",
+            "date": "October 15, 2026",
+            "category": "Admission",
+            "content": "Entrance evaluations for Da'wa and Hifz courses commence next month. Prospectus available at office.",
+            "isImportant": true
+          },
+          {
+            "id": "not-2",
+            "title": "Mid-Term Academic Progress Reports Published",
+            "date": "October 12, 2026",
+            "category": "Academic",
+            "content": "Parents can log in to the Parent Portal to review their child's approved evaluation cards and attendance status.",
+            "isImportant": false
+          },
+          {
+            "id": "not-3",
+            "title": "Annual Quran & Seerah Competitions 2026",
+            "date": "November 04, 2026",
+            "category": "General",
+            "content": "Inter-class competitions will take place at Darussalam Main Auditorium. Program schedule posted on notice boards.",
+            "isImportant": false
+          }
+        ]
+      }
+    }
+  ]
+}

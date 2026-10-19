@@ -1,0 +1,6 @@
+{
+  "name": "Darussalam Academy — Nandi, Kerala",
+  "description": "Darussalam Academy, Nandi, Kerala — Public academy homepage with integrated CMS, Teacher Academic Portal, and Parent Monitoring Portal.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
